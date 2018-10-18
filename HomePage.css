@@ -1,0 +1,23 @@
+body {
+      background-image: linear-gradient(teal,cyan,dodgerblue,teal)
+}
+h1 {
+      color: white;
+      text-align: center;
+      font-style: italic;
+      font-weight: 10000;
+
+}
+
+  a:hover{
+  background-color:cyan
+  }
+*.center-align{
+  text-align: center;
+}
+a:visited{
+  color: snow;
+}
+a:link {
+  color: snow;
+}
