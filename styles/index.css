@@ -45,3 +45,6 @@ p {
   font-size: 1.4em;
 }
 h1 + ol
+hr {
+    border-color: snow
+}

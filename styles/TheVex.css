@@ -1,57 +1,54 @@
 body {
-    background-image: linear-gradient(violet,pink,pink,violet)
+    background-image: linear-gradient(darkorange,yellow,darkorange)
 }
 h1 {
-      color: purple;
+      color: crimson;
       text-align: center;
       font-style: italic;
       font-weight: 10000;
       text-decoration: underline;
       font-size: 15;
       font: Arial;
-
 }
 h2 {
-      color: purple;
+      color: crimson;
       text-shadow: center;
       font-style: strong;
       font-weight: 400;
 }
-h3 {
-      color:purple;
-      text-shadow: center;
-      font-style: strong;
-      font-weight: 400;
-}
+
   a:hover{
-  background-color:darkmagenta
+  background-color:yellow
   }
 *.center-align{
   text-align: center;
 }
 a:visited{
-  color: pink;
+  color: crimson;
 }
 a:link {
-  color: purple;
+  color: red;
 }
 span {
-  background-color: violet
+  background-color: #fabd05
 }
 
 }
 a [<p>] {
   color: black
 }
-img {
-    border: 10px solid #ff66ff;
+.vexgob {
+    border: 10px solid #ff3300;
     border-radius: 10px;
     padding: 10px;
-    width: 150px;
+    width: 250px;
+    height: 250px;
 }
 body {
   font-family: Lato;
   margin: 10px;
   font-size: 1.4em;
 }
-h2 + ul
+hr {
+    border-color: crimson
+}

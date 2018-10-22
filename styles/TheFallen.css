@@ -1,36 +1,42 @@
 body {
-    background-image: linear-gradient(darkorange,yellow,darkorange)
+    background-image: linear-gradient(violet,pink,pink,violet)
 }
 h1 {
-      color: crimson;
+      color: purple;
       text-align: center;
       font-style: italic;
       font-weight: 10000;
       text-decoration: underline;
       font-size: 15;
       font: Arial;
+
 }
 h2 {
-      color: crimson;
+      color: purple;
       text-shadow: center;
       font-style: strong;
       font-weight: 400;
 }
-
+h3 {
+      color:purple;
+      text-shadow: center;
+      font-style: strong;
+      font-weight: 400;
+}
   a:hover{
-  background-color:yellow
+  background-color:darkmagenta
   }
 *.center-align{
   text-align: center;
 }
 a:visited{
-  color: crimson;
+  color: magenta;
 }
 a:link {
-  color: red;
+  color: purple;
 }
 span {
-  background-color: orange
+  background-color: violet
 }
 
 }
@@ -38,7 +44,7 @@ a [<p>] {
   color: black
 }
 img {
-    border: 10px solid #ff3300;
+    border: 10px solid #ff66ff;
     border-radius: 10px;
     padding: 10px;
     width: 150px;
@@ -47,4 +53,10 @@ body {
   font-family: Lato;
   margin: 10px;
   font-size: 1.4em;
+}
+h2 + ul {
+  font-size: 23px
+}
+hr {
+    border-color: darkmagenta
 }

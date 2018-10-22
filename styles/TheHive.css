@@ -39,12 +39,20 @@ span {
 a [<p>] {
   color: black
 }
-img {
+.hiveaco {
+    border: 5px solid darkgreen;
     border-radius: 50%;
+    padding: 10px;
+    width: 300px;
+    height: 250px;
 }
 body {
   font-family: Lato;
   margin: 10px;
   font-size: 1.4em;
 }
+hr {
+    border-color: darkgreen
+}
+
 h2 + li
