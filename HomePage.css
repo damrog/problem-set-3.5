@@ -3,10 +3,12 @@ body {
 }
 h1 {
       color: white;
-      text-align: center;
+      text-shadow: center;
       font-style: italic;
       font-weight: 10000;
-
+      font-size: 15;
+      text-decoration: underline;
+      font: Arial;
 }
 
   a:hover{
@@ -21,3 +23,25 @@ a:visited{
 a:link {
   color: snow;
 }
+a [<p>] {
+  color: black
+}
+img {
+    border: 10px solid #33cccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 150px;
+}
+
+<img src="FallenLogo.jpg" alt="FallenLogo">
+body {
+  font-family: Lato;
+  margin: 10px;
+  font-size: 1.4em;
+}
+p {
+  font-family: Lato;
+  margin: 10px;
+  font-size: 1.4em;
+}
+h1 + ol
