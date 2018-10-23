@@ -55,4 +55,5 @@ hr {
     border-color: darkgreen
 }
 
-h2 + li
+h2 + p {
+    font-family: Times
