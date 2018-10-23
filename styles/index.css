@@ -44,7 +44,9 @@ p {
   margin: 10px;
   font-size: 1.4em;
 }
-h1 + ol
+h1 + ol {
+      font-family:Times;
+      }
 hr {
     border-color: snow
 }
